@@ -1,0 +1,1636 @@
+{
+    "id": "1f5e909fc445b54ee88a2552eadd1f97",
+    "name": "One Note",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "6c3df3ce0aae70c1a6c7e8e0b262ec82",
+            "name": "Get Sections Sectionid",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/{sectionId}",
+            "description": "Returns a specific section.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sectionId",
+                    "description": "Specifies the specific Section",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "1b3f804f5d29efd7771152fc60dd353f",
+            "name": "Parameters Sections Sectionid",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/{sectionId}",
+            "description": "Parameters sections sectionid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "e387d9f679f2aa5f27d668c38ff72ec5",
+            "name": "Get Sections",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/",
+            "description": "Returns a collection of sections.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "true, to return the number of entities in the collection.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "The filter for the query. Example: createdTime ge 2015-09-01",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderby",
+                    "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "top",
+                    "description": "The number of entities to return from the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "skip",
+                    "description": "The number of entities to skip in the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "ef957c47d7d165db54bde906060a1865",
+            "name": "Parameters Sections",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/",
+            "description": "Parameters sections.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "995efc4ec396b71fc626fbd03c0cfb76",
+            "name": "Get Sectiongroups Sectiongroupid Sectiongroups",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sectionGroups",
+            "description": "Returns a collection of section groups within a specific section group.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "true, to return the number of entities in the collection.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "The filter for the query. Example: createdTime ge 2015-09-01",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderby",
+                    "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "top",
+                    "description": "The number of entities to return from the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "skip",
+                    "description": "The number of entities to skip in the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sectionGroupId",
+                    "description": "Specifies the section group.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "544d42cafc88ce428f89e295181d4043",
+            "name": "Parameters Sectiongroups Sectiongroupid Sectiongroups",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sectionGroups",
+            "description": "Parameters sectiongroups sectiongroupid sectiongroups.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "af56c5a0f1db36fc83e93ffed10ba7d9",
+            "name": "Post Sectiongroups Sectiongroupid Sectiongroups",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sectionGroups",
+            "description": "Post sectiongroups sectiongroupid sectiongroups.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sectionGroupId",
+                    "description": "Specifies the section group.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "f67d763eae2bc23afb758896be80f6a0",
+            "name": "Get Sectiongroups Sectiongroupid Sections",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sections",
+            "description": "Returns a collection of sections within a specific section group.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "true, to return the number of entities in the collection.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "The filter for the query. Example: createdTime ge 2015-09-01",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderby",
+                    "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "top",
+                    "description": "The number of entities to return from the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "skip",
+                    "description": "The number of entities to skip in the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sectionGroupId",
+                    "description": "Specifies the section group.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "af56a0679deb16b0719374e818fc78bf",
+            "name": "Parameters Sectiongroups Sectiongroupid Sections",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sections",
+            "description": "Parameters sectiongroups sectiongroupid sections.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "bb1c8db8b3353d7863dea959643682fa",
+            "name": "Post Sectiongroups Sectiongroupid Sections",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sections",
+            "description": "Post sectiongroups sectiongroupid sections.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sectionGroupId",
+                    "description": "Specifies the section group.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "a37d23eebe0ccc3f8900f408f31f3f59",
+            "name": "Get Sectiongroups Sectiongroupid",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}",
+            "description": "Returns a specific section group object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sectionGroupId",
+                    "description": "Specifies the section group.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "b437760c8eb7f13fe3eb041c9708f7bd",
+            "name": "Parameters Sectiongroups Sectiongroupid",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}",
+            "description": "Parameters sectiongroups sectiongroupid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "59049e1a982bf10e6138484e4c24428c",
+            "name": "Get Sectiongroups",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/",
+            "description": "Returns a collection of section groups.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "true, to return the number of entities in the collection.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "The filter for the query. Example: createdTime ge 2015-09-01",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderby",
+                    "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "top",
+                    "description": "The number of entities to return from the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "skip",
+                    "description": "The number of entities to skip in the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "a3accee40b262c00bef7afaf628189fb",
+            "name": "Parameters Sectiongroups",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/",
+            "description": "Parameters sectiongroups.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "c29e663c2e2a37ff453f031bb8aca057",
+            "name": "Get Notebooks Notebookid Sectiongroups",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sectiongroups",
+            "description": "Returns a collection of section groups within a specific notebook.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "true, to return the number of entities in the collection.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "The filter for the query. Example: createdTime ge 2015-09-01",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderby",
+                    "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "top",
+                    "description": "The number of entities to return from the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "skip",
+                    "description": "The number of entities to skip in the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "notebookId",
+                    "description": "Specifies the notebook.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "3e07d0374059dc8ee620af9bddc0cd6d",
+            "name": "Parameters Notebooks Notebookid Sectiongroups",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sectiongroups",
+            "description": "Parameters notebooks notebookid sectiongroups.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "26955a426ca00467ffd0e7df2be494b9",
+            "name": "Post Notebooks Notebookid Sectiongroups",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sectiongroups",
+            "description": "Creates a new section group in a notebook.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "notebookId",
+                    "description": "Specifies the notebook.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "f2eb79f3b6f73d6a7f97e5b71a52c90b",
+            "name": "Get Notebooks Notebookid Sections",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sections",
+            "description": "Returns a collection of sections within a specific notebook.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "true, to return the number of entities in the collection.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "The filter for the query. Example: createdTime ge 2015-09-01",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderby",
+                    "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "top",
+                    "description": "The number of entities to return from the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "skip",
+                    "description": "The number of entities to skip in the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "notebookId",
+                    "description": "Specifies the notebook.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "47e33b66a48bcb8dbd374b2f0b1bbe0b",
+            "name": "Post Notebooks Notebookid Sections",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sections",
+            "description": "Creates a new section in a specific notebook.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "notebookId",
+                    "description": "Specifies the notebook.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "bd962db046f06de908d437777a9c42bb",
+            "name": "Parameters Notebooks Notebookid Sections",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sections",
+            "description": "Parameters notebooks notebookid sections.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "3af74c6bf3bea214994d82ec7f8dcfe1",
+            "name": "Get Notebooks Notebookid",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}",
+            "description": "Returns a specific notebook object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "notebookId",
+                    "description": "Specifies the notebook.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "1f8c693ef19086e8e8c120dec1a3e803",
+            "name": "Parameters Notebooks Notebookid",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}",
+            "description": "Parameters notebooks notebookid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "5059d6ddeaba3e7310b662cdfcd892e1",
+            "name": "Get Notebooks",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks",
+            "description": "Returns a collection of notebooks.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "true, to return the number of entities in the collection.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "The filter for the query. Example: createdTime ge 2015-09-01",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderby",
+                    "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "top",
+                    "description": "The number of entities to return from the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "skip",
+                    "description": "The number of entities to skip in the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "07f009209eb5bb820073ccdc541f13b1",
+            "name": "Post Notebooks",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks",
+            "description": "Creates a new notebook.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "dfa2bfe7c131f4ff7d79af19df6e32d2",
+            "name": "Parameters Notebooks",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks",
+            "description": "Parameters notebooks.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "b088ba07b806cfd58091eb188d370065",
+            "name": "Get Pages Pageid Content",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}\/content",
+            "description": "Returns HTML content of the specified page.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Accept",
+                    "description": "Required: indicates type of content returned in the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includeIDs",
+                    "description": "Optional: set to true to get generated IDs to use for PATCH operations.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "Required: indicates type of content returned in the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageId",
+                    "description": "Specifies the page whose content you want to retrieve.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "f388fe4a5c8c8cceae0c17088fc5ee25",
+            "name": "Parameters Pages Pageid Content",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}\/content",
+            "description": "Parameters pages pageid content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "bd25294c9282c6e41514d42ec7570bd5",
+            "name": "Delete Pages Pageid",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}",
+            "description": "Deletes the specified page.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "pageId",
+                    "description": "Specifies the page whose content you want to retrieve.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "5596fa0f7e8952893ace4e3b76ce037f",
+            "name": "Get Pages Pageid",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}",
+            "description": "Returns the specified page.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pagelevel",
+                    "description": "true, to return the level and order properties.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageId",
+                    "description": "Specifies the page whose content you want to retrieve.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "f8bb353aa648562ff6f8148179a6340e",
+            "name": "Parameters Pages Pageid",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}",
+            "description": "Parameters pages pageid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "e5f694f891dcd8e70e8739d1d1d50c95",
+            "name": "Get Sections Sectionid Pages",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/{sectionId}\/pages",
+            "description": "Get the pages (metadata) in the specified section.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "true, to return the number of entities in the collection.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "The filter for the query. Example: createdTime ge 2015-09-01",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderby",
+                    "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "top",
+                    "description": "The number of entities to return from the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "search",
+                    "description": "The term or phrase to search for. Example: todo",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "skip",
+                    "description": "The number of entities to skip in the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expand",
+                    "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pagelevel",
+                    "description": "true, to return the level and order properties.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sectionId",
+                    "description": "Specifies the specific Section",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "9c0fb18bd1f4cfc3beadafd3d296d222",
+            "name": "Post Sections Sectionid Pages",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/{sectionId}\/pages",
+            "description": "Creates a new page in a specific section.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sectionId",
+                    "description": "Specifies the specific Section",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "d2f5fcf1254d6164b7c2e43f673df831",
+            "name": "Parameters Sections Sectionid Pages",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/{sectionId}\/pages",
+            "description": "Parameters sections sectionid pages.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "2a96c2ef23d42c67474061005a2b4d67",
+            "name": "Get Pages",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages",
+            "description": "Get the pages (metadata) from all notebooks in OneDrive that are owned by the user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "true, to return the number of entities in the collection.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "The filter for the query. Example: createdTime ge 2015-09-01",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderby",
+                    "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "select",
+                    "description": "The properties to return. Example: name,pagesUrl,createdTime",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "top",
+                    "description": "The number of entities to return from the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "search",
+                    "description": "The term or phrase to search for. Example: todo",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "skip",
+                    "description": "The number of entities to skip in the result set. Example: 10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "a5a4448fa63e4338a94165fc6ae450e9",
+            "name": "Post Pages",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages",
+            "description": "Creates a new page in the default notebook and section.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sectionName",
+                    "description": "Optional: indicates the name of the section in the default notebook that the page should be created in. This section will be created if it does not already exist.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "68d78a0eed44a97a2e1533f4234ab898",
+            "name": "Parameters Pages",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages",
+            "description": "Parameters pages.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        },
+        {
+            "id": "3401c02b5241ca5df3848fa24b02306c",
+            "name": "Get Pages Pageid Preview",
+            "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}\/preview",
+            "description": "Returns preview text and (if there is one) a preview image for the specified page.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Required: indicates type of content being sent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageId",
+                    "description": "Specifies the page whose content you want to retrieve.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "rawModeData": ""
+        }
+    ]
+}
