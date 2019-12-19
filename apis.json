@@ -1,0 +1,96 @@
+{
+    "name": "OneNote",
+    "description": "<p>Microsoft OneNote (formerly called Microsoft Office OneNote) is a computer program for free-form information gathering and multi-user collaboration. It gathers users' notes (handwritten or typed), drawings, screen clippings and audio commentaries. Notes can be shared with other OneNote users over the Internet or a network. OneNote is available as a part of the Microsoft Office suite. It is also available as a free stand-alone application for Windows, Mac, Windows RT, Windows Phone, iOS, Android and Symbian.[4] A web-based version of OneNote is provided as part of OneDrive or Office Online and enables users to edit notes via a web browser.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/OneNote-Logo.jpg",
+    "tags": [
+        "api provider",
+        "getting started example",
+        "have api",
+        "notes",
+        "relative data",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/onenote\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "One Note",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/OneNote-Logo.jpg",
+            "humanURL": "http:\/\/onenote.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/one-note.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/one-note-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/one-note-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Application Gallery",
+            "url": "http:\/\/dev.office.com\/showcase"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blogs.msdn.com\/b\/onenotedev\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blogs.msdn.com\/b\/onenotedev\/rss.aspx"
+        },
+        {
+            "type": "Console",
+            "url": "https:\/\/apigee.com\/onenote\/embed\/console\/onenote"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/dev.onenote.com\/"
+        },
+        {
+            "type": "Getting Started",
+            "url": "http:\/\/msdn.microsoft.com\/en-us\/library\/office\/dn575425.aspx"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/OneNoteDev"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/OneNoteDev"
+        },
+        {
+            "type": "Privacy",
+            "url": "http:\/\/go.microsoft.com\/fwlink\/?LinkId=391953&clcid=0x409"
+        },
+        {
+            "type": "Stack Overflow",
+            "url": "http:\/\/stackoverflow.com\/questions\/tagged\/onenote"
+        },
+        {
+            "type": "Terms Of Service",
+            "url": "http:\/\/go.microsoft.com\/fwlink\/?LinkId=391954&clcid=0x409"
+        },
+        {
+            "type": "Trademarks",
+            "url": "http:\/\/go.microsoft.com\/fwlink\/p\/?LinkId=316970"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/onenote.com"
+        }
+    ]
+}
