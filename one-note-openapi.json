@@ -1,0 +1,864 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "One Note",
+        "description": "Easily capture content into OneNote with this REST API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpswww.onenote.com\/api\/v1.0\/me\/notes\/"
+    ],
+    "paths": {
+        "\/sections\/{sectionId}": {
+            "get": {
+                "summary": "Get Sections Sectionid",
+                "description": "Returns a specific section.",
+                "operationId": "GetSectionsSection",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "sectionId",
+                        "in": "path",
+                        "description": "Specifies the specific Section"
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Sections Sectionid",
+                "description": "Parameters sections sectionid.",
+                "operationId": "ParametersSectionsSection",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/sections\/": {
+            "get": {
+                "summary": "Get Sections",
+                "description": "Returns a collection of sections.",
+                "operationId": "GetSections",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "true, to return the number of entities in the collection."
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "The filter for the query. Example: createdTime ge 2015-09-01"
+                    },
+                    {
+                        "name": "orderby",
+                        "in": "query",
+                        "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc"
+                    },
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "top",
+                        "in": "query",
+                        "description": "The number of entities to return from the result set. Example: 10"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "The number of entities to skip in the result set. Example: 10"
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Sections",
+                "description": "Parameters sections.",
+                "operationId": "ParametersSections",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/sectionGroups\/{sectionGroupId}\/sectionGroups": {
+            "get": {
+                "summary": "Get Sectiongroups Sectiongroupid Sectiongroups",
+                "description": "Returns a collection of section groups within a specific section group.",
+                "operationId": "GetSectiongroupsSectiongroupSectiongroups",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "true, to return the number of entities in the collection."
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "The filter for the query. Example: createdTime ge 2015-09-01"
+                    },
+                    {
+                        "name": "orderby",
+                        "in": "query",
+                        "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc"
+                    },
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "top",
+                        "in": "query",
+                        "description": "The number of entities to return from the result set. Example: 10"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "The number of entities to skip in the result set. Example: 10"
+                    },
+                    {
+                        "name": "sectionGroupId",
+                        "in": "path",
+                        "description": "Specifies the section group."
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Sectiongroups Sectiongroupid Sectiongroups",
+                "description": "Parameters sectiongroups sectiongroupid sectiongroups.",
+                "operationId": "ParametersSectiongroupsSectiongroupSectiongroups",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Sectiongroups Sectiongroupid Sectiongroups",
+                "description": "Post sectiongroups sectiongroupid sectiongroups.",
+                "operationId": "PostSectiongroupsSectiongroupSectiongroups",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Required: indicates type of content being sent"
+                    },
+                    {
+                        "name": "sectionGroupId",
+                        "in": "path",
+                        "description": "Specifies the section group."
+                    }
+                ]
+            }
+        },
+        "\/sectionGroups\/{sectionGroupId}\/sections": {
+            "get": {
+                "summary": "Get Sectiongroups Sectiongroupid Sections",
+                "description": "Returns a collection of sections within a specific section group.",
+                "operationId": "GetSectiongroupsSectiongroupSections",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "true, to return the number of entities in the collection."
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "The filter for the query. Example: createdTime ge 2015-09-01"
+                    },
+                    {
+                        "name": "orderby",
+                        "in": "query",
+                        "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc"
+                    },
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "top",
+                        "in": "query",
+                        "description": "The number of entities to return from the result set. Example: 10"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "The number of entities to skip in the result set. Example: 10"
+                    },
+                    {
+                        "name": "sectionGroupId",
+                        "in": "path",
+                        "description": "Specifies the section group."
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Sectiongroups Sectiongroupid Sections",
+                "description": "Parameters sectiongroups sectiongroupid sections.",
+                "operationId": "ParametersSectiongroupsSectiongroupSections",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Sectiongroups Sectiongroupid Sections",
+                "description": "Post sectiongroups sectiongroupid sections.",
+                "operationId": "PostSectiongroupsSectiongroupSections",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Required: indicates type of content being sent"
+                    },
+                    {
+                        "name": "sectionGroupId",
+                        "in": "path",
+                        "description": "Specifies the section group."
+                    }
+                ]
+            }
+        },
+        "\/sectionGroups\/{sectionGroupId}": {
+            "get": {
+                "summary": "Get Sectiongroups Sectiongroupid",
+                "description": "Returns a specific section group object.",
+                "operationId": "GetSectiongroupsSectiongroup",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "sectionGroupId",
+                        "in": "path",
+                        "description": "Specifies the section group."
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Sectiongroups Sectiongroupid",
+                "description": "Parameters sectiongroups sectiongroupid.",
+                "operationId": "ParametersSectiongroupsSectiongroup",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/sectionGroups\/": {
+            "get": {
+                "summary": "Get Sectiongroups",
+                "description": "Returns a collection of section groups.",
+                "operationId": "GetSectiongroups",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "true, to return the number of entities in the collection."
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "The filter for the query. Example: createdTime ge 2015-09-01"
+                    },
+                    {
+                        "name": "orderby",
+                        "in": "query",
+                        "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc"
+                    },
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "top",
+                        "in": "query",
+                        "description": "The number of entities to return from the result set. Example: 10"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "The number of entities to skip in the result set. Example: 10"
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Sectiongroups",
+                "description": "Parameters sectiongroups.",
+                "operationId": "ParametersSectiongroups",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/notebooks\/{notebookId}\/sectiongroups": {
+            "get": {
+                "summary": "Get Notebooks Notebookid Sectiongroups",
+                "description": "Returns a collection of section groups within a specific notebook.",
+                "operationId": "GetNotebooksNotebookSectiongroups",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "true, to return the number of entities in the collection."
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "The filter for the query. Example: createdTime ge 2015-09-01"
+                    },
+                    {
+                        "name": "orderby",
+                        "in": "query",
+                        "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc"
+                    },
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "top",
+                        "in": "query",
+                        "description": "The number of entities to return from the result set. Example: 10"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "The number of entities to skip in the result set. Example: 10"
+                    },
+                    {
+                        "name": "notebookId",
+                        "in": "path",
+                        "description": "Specifies the notebook."
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Notebooks Notebookid Sectiongroups",
+                "description": "Parameters notebooks notebookid sectiongroups.",
+                "operationId": "ParametersNotebooksNotebookSectiongroups",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Notebooks Notebookid Sectiongroups",
+                "description": "Creates a new section group in a notebook.",
+                "operationId": "PostNotebooksNotebookSectiongroups",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Required: indicates type of content being sent"
+                    },
+                    {
+                        "name": "notebookId",
+                        "in": "path",
+                        "description": "Specifies the notebook."
+                    }
+                ]
+            }
+        },
+        "\/notebooks\/{notebookId}\/sections": {
+            "get": {
+                "summary": "Get Notebooks Notebookid Sections",
+                "description": "Returns a collection of sections within a specific notebook.",
+                "operationId": "GetNotebooksNotebookSections",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "true, to return the number of entities in the collection."
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "The filter for the query. Example: createdTime ge 2015-09-01"
+                    },
+                    {
+                        "name": "orderby",
+                        "in": "query",
+                        "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc"
+                    },
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "top",
+                        "in": "query",
+                        "description": "The number of entities to return from the result set. Example: 10"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "The number of entities to skip in the result set. Example: 10"
+                    },
+                    {
+                        "name": "notebookId",
+                        "in": "path",
+                        "description": "Specifies the notebook."
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Notebooks Notebookid Sections",
+                "description": "Creates a new section in a specific notebook.",
+                "operationId": "PostNotebooksNotebookSections",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Required: indicates type of content being sent"
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Required: indicates type of content being sent"
+                    },
+                    {
+                        "name": "notebookId",
+                        "in": "path",
+                        "description": "Specifies the notebook."
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Notebooks Notebookid Sections",
+                "description": "Parameters notebooks notebookid sections.",
+                "operationId": "ParametersNotebooksNotebookSections",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/notebooks\/{notebookId}": {
+            "get": {
+                "summary": "Get Notebooks Notebookid",
+                "description": "Returns a specific notebook object.",
+                "operationId": "GetNotebooksNotebook",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "notebookId",
+                        "in": "path",
+                        "description": "Specifies the notebook."
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Notebooks Notebookid",
+                "description": "Parameters notebooks notebookid.",
+                "operationId": "ParametersNotebooksNotebook",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/notebooks": {
+            "get": {
+                "summary": "Get Notebooks",
+                "description": "Returns a collection of notebooks.",
+                "operationId": "GetNotebooks",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "true, to return the number of entities in the collection."
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "The filter for the query. Example: createdTime ge 2015-09-01"
+                    },
+                    {
+                        "name": "orderby",
+                        "in": "query",
+                        "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc"
+                    },
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "top",
+                        "in": "query",
+                        "description": "The number of entities to return from the result set. Example: 10"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "The number of entities to skip in the result set. Example: 10"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Notebooks",
+                "description": "Creates a new notebook.",
+                "operationId": "PostNotebooks",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Required: indicates type of content being sent"
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Required: indicates type of content being sent"
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Notebooks",
+                "description": "Parameters notebooks.",
+                "operationId": "ParametersNotebooks",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/pages\/{pageId}\/content": {
+            "get": {
+                "summary": "Get Pages Pageid Content",
+                "description": "Returns HTML content of the specified page.",
+                "operationId": "GetPagesPageContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": "Required: indicates type of content returned in the response."
+                    },
+                    {
+                        "name": "includeIDs",
+                        "in": "query",
+                        "description": "Optional: set to true to get generated IDs to use for PATCH operations."
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "query",
+                        "description": "Required: indicates type of content returned in the response."
+                    },
+                    {
+                        "name": "pageId",
+                        "in": "path",
+                        "description": "Specifies the page whose content you want to retrieve."
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Pages Pageid Content",
+                "description": "Parameters pages pageid content.",
+                "operationId": "ParametersPagesPageContent",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/pages\/{pageId}": {
+            "delete": {
+                "summary": "Delete Pages Pageid",
+                "description": "Deletes the specified page.",
+                "operationId": "DeletePagesPage",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "pageId",
+                        "in": "path",
+                        "description": "Specifies the page whose content you want to retrieve."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Pages Pageid",
+                "description": "Returns the specified page.",
+                "operationId": "GetPagesPage",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "pagelevel",
+                        "in": "query",
+                        "description": "true, to return the level and order properties."
+                    },
+                    {
+                        "name": "pageId",
+                        "in": "path",
+                        "description": "Specifies the page whose content you want to retrieve."
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Pages Pageid",
+                "description": "Parameters pages pageid.",
+                "operationId": "ParametersPagesPage",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/sections\/{sectionId}\/pages": {
+            "get": {
+                "summary": "Get Sections Sectionid Pages",
+                "description": "Get the pages (metadata) in the specified section.",
+                "operationId": "GetSectionsSectionPages",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "true, to return the number of entities in the collection."
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "The filter for the query. Example: createdTime ge 2015-09-01"
+                    },
+                    {
+                        "name": "orderby",
+                        "in": "query",
+                        "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc"
+                    },
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "top",
+                        "in": "query",
+                        "description": "The number of entities to return from the result set. Example: 10"
+                    },
+                    {
+                        "name": "search",
+                        "in": "query",
+                        "description": "The term or phrase to search for. Example: todo"
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "The number of entities to skip in the result set. Example: 10"
+                    },
+                    {
+                        "name": "expand",
+                        "in": "query",
+                        "description": "The navigation properties (parentNotebook, or parentSectionGroup) to return inline in the response. Example: parentNotebook"
+                    },
+                    {
+                        "name": "pagelevel",
+                        "in": "query",
+                        "description": "true, to return the level and order properties."
+                    },
+                    {
+                        "name": "sectionId",
+                        "in": "path",
+                        "description": "Specifies the specific Section"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Sections Sectionid Pages",
+                "description": "Creates a new page in a specific section.",
+                "operationId": "PostSectionsSectionPages",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Required: indicates type of content being sent"
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Required: indicates type of content being sent"
+                    },
+                    {
+                        "name": "sectionId",
+                        "in": "path",
+                        "description": "Specifies the specific Section"
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Sections Sectionid Pages",
+                "description": "Parameters sections sectionid pages.",
+                "operationId": "ParametersSectionsSectionPages",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/pages": {
+            "get": {
+                "summary": "Get Pages",
+                "description": "Get the pages (metadata) from all notebooks in OneDrive that are owned by the user.",
+                "operationId": "GetPages",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "true, to return the number of entities in the collection."
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "The filter for the query. Example: createdTime ge 2015-09-01"
+                    },
+                    {
+                        "name": "orderby",
+                        "in": "query",
+                        "description": "The property to order by. Default is \"name asc\". Example: lastModifiedTime desc"
+                    },
+                    {
+                        "name": "select",
+                        "in": "query",
+                        "description": "The properties to return. Example: name,pagesUrl,createdTime"
+                    },
+                    {
+                        "name": "top",
+                        "in": "query",
+                        "description": "The number of entities to return from the result set. Example: 10"
+                    },
+                    {
+                        "name": "search",
+                        "in": "query",
+                        "description": "The term or phrase to search for. Example: todo"
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "The number of entities to skip in the result set. Example: 10"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Pages",
+                "description": "Creates a new page in the default notebook and section.",
+                "operationId": "PostPages",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Required: indicates type of content being sent"
+                    },
+                    {
+                        "name": "sectionName",
+                        "in": "query",
+                        "description": "Optional: indicates the name of the section in the default notebook that the page should be created in. This section will be created if it does not already exist."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Required: indicates type of content being sent"
+                    }
+                ]
+            },
+            "parameters": {
+                "summary": "Parameters Pages",
+                "description": "Parameters pages.",
+                "operationId": "ParametersPages",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/pages\/{pageId}\/preview": {
+            "get": {
+                "summary": "Get Pages Pageid Preview",
+                "description": "Returns preview text and (if there is one) a preview image for the specified page.",
+                "operationId": "GetPagesPagePreview",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Required: indicates type of content being sent"
+                    },
+                    {
+                        "name": "pageId",
+                        "in": "path",
+                        "description": "Specifies the page whose content you want to retrieve."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
