@@ -1,5 +1,5 @@
 {
-    "id": "1f5e909fc445b54ee88a2552eadd1f97",
+    "id": "1954f596a4f3c611b7a363f6b03bfb74",
     "name": "One Note",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "6c3df3ce0aae70c1a6c7e8e0b262ec82",
+            "id": "4517cf649717519922d42c371fd606d9",
             "name": "Get Sections Sectionid",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/{sectionId}",
             "description": "Returns a specific section.",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "1b3f804f5d29efd7771152fc60dd353f",
+            "id": "6f327a602eba7144672bb2b756f6fec4",
             "name": "Parameters Sections Sectionid",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/{sectionId}",
             "description": "Parameters sections sectionid.",
@@ -74,11 +74,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "e387d9f679f2aa5f27d668c38ff72ec5",
+            "id": "dd99e42ccb328b3a62a1198481f9c1ba",
             "name": "Get Sections",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/",
             "description": "Returns a collection of sections.",
@@ -147,11 +147,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "ef957c47d7d165db54bde906060a1865",
+            "id": "db4fb1e69fc53e74efe2d96b6fa50e36",
             "name": "Parameters Sections",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/",
             "description": "Parameters sections.",
@@ -170,11 +170,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "995efc4ec396b71fc626fbd03c0cfb76",
+            "id": "06b14f4b5e4c4c8b02959aabb4013472",
             "name": "Get Sectiongroups Sectiongroupid Sectiongroups",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sectionGroups",
             "description": "Returns a collection of section groups within a specific section group.",
@@ -250,11 +250,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "544d42cafc88ce428f89e295181d4043",
+            "id": "0f3651bbefb32e5741a5bec6f6f5671e",
             "name": "Parameters Sectiongroups Sectiongroupid Sectiongroups",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sectionGroups",
             "description": "Parameters sectiongroups sectiongroupid sectiongroups.",
@@ -273,11 +273,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "af56c5a0f1db36fc83e93ffed10ba7d9",
+            "id": "f0f73c4d8c08513ad2bde8fc50357ede",
             "name": "Post Sectiongroups Sectiongroupid Sectiongroups",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sectionGroups",
             "description": "Post sectiongroups sectiongroupid sectiongroups.",
@@ -311,11 +311,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "f67d763eae2bc23afb758896be80f6a0",
+            "id": "02560e2353aa1defec151439c7fbf130",
             "name": "Get Sectiongroups Sectiongroupid Sections",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sections",
             "description": "Returns a collection of sections within a specific section group.",
@@ -391,11 +391,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "af56a0679deb16b0719374e818fc78bf",
+            "id": "80f829e67ac6868780cb6033cf0877df",
             "name": "Parameters Sectiongroups Sectiongroupid Sections",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sections",
             "description": "Parameters sectiongroups sectiongroupid sections.",
@@ -414,11 +414,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "bb1c8db8b3353d7863dea959643682fa",
+            "id": "c862ff856e8bfd433f3984d3ef8f2831",
             "name": "Post Sectiongroups Sectiongroupid Sections",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}\/sections",
             "description": "Post sectiongroups sectiongroupid sections.",
@@ -452,11 +452,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "a37d23eebe0ccc3f8900f408f31f3f59",
+            "id": "a619c7783e9643aeb8782549566b6026",
             "name": "Get Sectiongroups Sectiongroupid",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}",
             "description": "Returns a specific section group object.",
@@ -497,11 +497,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "b437760c8eb7f13fe3eb041c9708f7bd",
+            "id": "c075b1e2dc25b54b7fb11d19345dd4ce",
             "name": "Parameters Sectiongroups Sectiongroupid",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/{sectionGroupId}",
             "description": "Parameters sectiongroups sectiongroupid.",
@@ -520,11 +520,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "59049e1a982bf10e6138484e4c24428c",
+            "id": "c212dffc671dee42fc7f1c0516580dd3",
             "name": "Get Sectiongroups",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/",
             "description": "Returns a collection of section groups.",
@@ -593,11 +593,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "a3accee40b262c00bef7afaf628189fb",
+            "id": "07a422d1cd9336cab108aa8ed4fb9fd7",
             "name": "Parameters Sectiongroups",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sectionGroups\/",
             "description": "Parameters sectiongroups.",
@@ -616,11 +616,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "c29e663c2e2a37ff453f031bb8aca057",
+            "id": "c1be831691adb5ffeb1443160005b129",
             "name": "Get Notebooks Notebookid Sectiongroups",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sectiongroups",
             "description": "Returns a collection of section groups within a specific notebook.",
@@ -696,11 +696,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "3e07d0374059dc8ee620af9bddc0cd6d",
+            "id": "00b042c3f1aac771656e97603da78f57",
             "name": "Parameters Notebooks Notebookid Sectiongroups",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sectiongroups",
             "description": "Parameters notebooks notebookid sectiongroups.",
@@ -719,11 +719,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "26955a426ca00467ffd0e7df2be494b9",
+            "id": "f78296148481f691f527d3f1dee452a4",
             "name": "Post Notebooks Notebookid Sectiongroups",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sectiongroups",
             "description": "Creates a new section group in a notebook.",
@@ -757,11 +757,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "f2eb79f3b6f73d6a7f97e5b71a52c90b",
+            "id": "44ed7e92c983c0b00513c1f3886167de",
             "name": "Get Notebooks Notebookid Sections",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sections",
             "description": "Returns a collection of sections within a specific notebook.",
@@ -837,11 +837,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "47e33b66a48bcb8dbd374b2f0b1bbe0b",
+            "id": "b288d683cf8d7f686b997ba7383c28c9",
             "name": "Post Notebooks Notebookid Sections",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sections",
             "description": "Creates a new section in a specific notebook.",
@@ -882,11 +882,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "bd962db046f06de908d437777a9c42bb",
+            "id": "f88a15f3f0b176ea9e6ccdaa466ec5d0",
             "name": "Parameters Notebooks Notebookid Sections",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}\/sections",
             "description": "Parameters notebooks notebookid sections.",
@@ -905,11 +905,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "3af74c6bf3bea214994d82ec7f8dcfe1",
+            "id": "fdc679eb332613561ce647dc6f5af324",
             "name": "Get Notebooks Notebookid",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}",
             "description": "Returns a specific notebook object.",
@@ -950,11 +950,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "1f8c693ef19086e8e8c120dec1a3e803",
+            "id": "89e9f30890d3cbe3b1048ec4c35fd247",
             "name": "Parameters Notebooks Notebookid",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks\/{notebookId}",
             "description": "Parameters notebooks notebookid.",
@@ -973,11 +973,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "5059d6ddeaba3e7310b662cdfcd892e1",
+            "id": "5f28781217b7fa336bde57a2851c138e",
             "name": "Get Notebooks",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks",
             "description": "Returns a collection of notebooks.",
@@ -1046,11 +1046,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "07f009209eb5bb820073ccdc541f13b1",
+            "id": "2986e64c36e5f4a6e68c65a8168397c0",
             "name": "Post Notebooks",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks",
             "description": "Creates a new notebook.",
@@ -1084,11 +1084,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "dfa2bfe7c131f4ff7d79af19df6e32d2",
+            "id": "22f755f9b34a0339e4129bc7dc6f1931",
             "name": "Parameters Notebooks",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/notebooks",
             "description": "Parameters notebooks.",
@@ -1107,11 +1107,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "b088ba07b806cfd58091eb188d370065",
+            "id": "13ab2931fece0714218e59e22b560edc",
             "name": "Get Pages Pageid Content",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}\/content",
             "description": "Returns HTML content of the specified page.",
@@ -1159,11 +1159,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "f388fe4a5c8c8cceae0c17088fc5ee25",
+            "id": "e89c6ffe92e7ae08aa8fb89f71751797",
             "name": "Parameters Pages Pageid Content",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}\/content",
             "description": "Parameters pages pageid content.",
@@ -1182,11 +1182,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "bd25294c9282c6e41514d42ec7570bd5",
+            "id": "a59e31cfa10828a73f589e68b129862d",
             "name": "Delete Pages Pageid",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}",
             "description": "Deletes the specified page.",
@@ -1213,11 +1213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "5596fa0f7e8952893ace4e3b76ce037f",
+            "id": "360c9bfc95091a0afee53fabccae3f8a",
             "name": "Get Pages Pageid",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}",
             "description": "Returns the specified page.",
@@ -1265,11 +1265,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "f8bb353aa648562ff6f8148179a6340e",
+            "id": "33c37fcc006afc1b591ee6a7d1a9669e",
             "name": "Parameters Pages Pageid",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}",
             "description": "Parameters pages pageid.",
@@ -1288,11 +1288,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "e5f694f891dcd8e70e8739d1d1d50c95",
+            "id": "32424a2249e19755bc7b7062c77deec5",
             "name": "Get Sections Sectionid Pages",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/{sectionId}\/pages",
             "description": "Get the pages (metadata) in the specified section.",
@@ -1382,11 +1382,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "9c0fb18bd1f4cfc3beadafd3d296d222",
+            "id": "700497d1f8a510856ed50344234aae27",
             "name": "Post Sections Sectionid Pages",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/{sectionId}\/pages",
             "description": "Creates a new page in a specific section.",
@@ -1427,11 +1427,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "d2f5fcf1254d6164b7c2e43f673df831",
+            "id": "eb03a164a80c6a2a12c0acd09fec1877",
             "name": "Parameters Sections Sectionid Pages",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/sections\/{sectionId}\/pages",
             "description": "Parameters sections sectionid pages.",
@@ -1450,11 +1450,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "2a96c2ef23d42c67474061005a2b4d67",
+            "id": "79c1d8ebd78ca239f7edae69bd7397da",
             "name": "Get Pages",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages",
             "description": "Get the pages (metadata) from all notebooks in OneDrive that are owned by the user.",
@@ -1523,11 +1523,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "a5a4448fa63e4338a94165fc6ae450e9",
+            "id": "26a84353418763ffcbee06d788aa8963",
             "name": "Post Pages",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages",
             "description": "Creates a new page in the default notebook and section.",
@@ -1568,11 +1568,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "68d78a0eed44a97a2e1533f4234ab898",
+            "id": "ca4c742bbf1de4895f608a10b1ad6fbc",
             "name": "Parameters Pages",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages",
             "description": "Parameters pages.",
@@ -1591,11 +1591,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         },
         {
-            "id": "3401c02b5241ca5df3848fa24b02306c",
+            "id": "b2a2a76ae02e8897ad68a46ed6d70956",
             "name": "Get Pages Pageid Preview",
             "url": "httpswww.onenote.com\/api\/v1.0\/me\/notes\/\/pages\/{pageId}\/preview",
             "description": "Returns preview text and (if there is one) a preview image for the specified page.",
@@ -1629,7 +1629,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f5e909fc445b54ee88a2552eadd1f97",
+            "collectionId": "1954f596a4f3c611b7a363f6b03bfb74",
             "rawModeData": ""
         }
     ]
